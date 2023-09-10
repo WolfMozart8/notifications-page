@@ -2,7 +2,7 @@
     <!-- main notification div, if is unread add a background -->
     <div :class="{ 'bg-Very-light-grayish-blue dark:bg-dark-notification': !props.user.read }" class="flex gap-2 p-4 ">
         <!-- avatar -->
-        <img class="w-10 h-10" :src="`/src/assets/images/${props.user.avatarUrl}.webp`" alt="avatar">
+        <img class="w-10 h-10" :src="`/images/${props.user.avatarUrl}.webp`" alt="avatar">
         <!-- text div -->
         <div class="flex-1">
             <p class="text-Grayish-blue font-medium">
@@ -28,7 +28,7 @@
         </div>
         <!-- image link if available -->
         <a href="#" v-if="props.user.interactionImgUrl">
-            <img class="w-10 h-10 " :src="`/src/assets/images/${props.user.interactionImgUrl}.webp`" :alt="props.user.interactionImgUrl">
+            <img class="w-10 h-10 " :src="`/images/${props.user.interactionImgUrl}.webp`" :alt="props.user.interactionImgUrl">
         </a>
     </div>
 </template>
