@@ -1,12 +1,12 @@
 <template>
-    <header class="flex justify-between font-extrabold p-4">
+    <header class="flex justify-between font-extrabold p-4 sticky top-0 bg-White dark:bg-Very-dark-blue">
         <div class="text-xl">Notifications <span class="bg-Blue text-White py-1 px-3 rounded-lg ml-2 select-none">{{
             props.unreadMessages }}</span>
         </div>
 
 
         <!-- dark mode switch -->
-        <div class="flex items-center justify-center ">
+        <div class="flex items-center justify-center">
             <!-- light icon -->
             <label>
                 <svg class="h-4 w-4 md:h-6 md:w-6 fill-dark-notification dark:fill-White" fill="#000000" width="800px"

@@ -1,18 +1,67 @@
-# Vue 3 + TypeScript + Vite
+# Frontend Mentor - Notifications page solution
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is a solution to the [Notifications page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Recommended IDE Setup
+## Table of contents
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-## Type Support For `.vue` Imports in TS
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+## Overview
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+### The challenge
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+Users should be able to:
+
+- Distinguish between "unread" and "read" notifications
+- Select "Mark all as read" to toggle the visual state of the unread notifications and set the number of unread messages to zero
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
+## extra:
+- Added darkMode
+- Added "extra" notifications
+
+### Screenshot
+
+![](/readme_images/notification_page_image.png)
+
+
+### Links
+
+- Solution URL: [GitHub](https://github.com/WolfMozart8/notifications-page)
+- Live Site URL: [GitHub pages](https://wolfmozart8.github.io/notifications-page/)
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+
+- Mobile-first workflow
+- [VueJs](https://vuejs.org/) - JS Framework
+- [Tailwind](https://tailwindcss.com/) - CSS framework
+- [Typescript](https://www.typescriptlang.org/) - For typed JS
+- [VueUse](https://vueuse.org/) VueJs Utilities
+
+
+### What I learned
+
+First time using Tailwind, and I was very fun. I liked the easy way to implement styles, especially how easy it was to add a dark mode.
+
+### Useful resources
+
+- [VueUse guide](https://larainfo.com/blogs/vue-3-dark-mode-with-tailwind-css-example) - This helped me to implement taildwind DarkMode in VueJs.
+
+
+## Author
+
+- GitHub profile - [GitHub](https://github.com/WolfMozart8)
+- Frontend Mentor - [@WolfMozart8](https://www.frontendmentor.io/profile/WolfMozart8)
